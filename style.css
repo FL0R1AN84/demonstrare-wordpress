@@ -9,7 +9,7 @@
 
 /* open-sans-regular - latin */
 @font-face {
-    font-display: block;
+    font-display: auto;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -23,6 +23,7 @@
 }
 /* open-sans-italic - latin */
 @font-face {
+    font-display: auto;
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
@@ -36,6 +37,7 @@
 }
 /* open-sans-600 - latin */
 @font-face {
+    font-display: auto;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
