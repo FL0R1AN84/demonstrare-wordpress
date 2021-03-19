@@ -65,6 +65,15 @@ input[type="date"], input[type="email"], input[type="number"], input[type="tel"]
     border-style: solid;
 }
 
+input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus {
+    border-width: 0 0 2px 0;
+    border-style: solid;
+}
+
+textarea:focus {
+    border: 2px solid;
+}
+
 #schlagworte {
     width: 450px;
     max-width: 100%;
